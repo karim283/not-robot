@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>i'm not a robot</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <button onclick="openCaptcha()">Verify I'm Not a Robot</button>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="captcha-container" id="captcha-container">
+      <p class="captcha-instructions" id="captcha-instructions"></p>
+      <div class="image-grid" id="captcha-grid"></div>
+      <button
+        onclick="verifyCaptcha()"
+        style="margin-top: 20px; padding: 10px 20px; font-size: 16px"
+      >
+        Submit
+      </button>
+      <button class="close-btn" onclick="closeCaptcha()">Close</button>
+      <div class="message" id="success-message" style="color: green">
+        You are not a robot! 🎉
+      </div>
+      <div class="message" id="error-message" style="color: red">
+        Incorrect selection. Please click on close & try again. ❌
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
