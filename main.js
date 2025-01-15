@@ -1,14 +1,4 @@
-// const images = [
-//   { src: "https://via.placeholder.com/100?text=Animal1", type: "animal" },
-//   { src: "https://via.placeholder.com/100?text=Fish1", type: "fish" },
-//   { src: "https://via.placeholder.com/100?text=Bird1", type: "bird" },
-//   { src: "https://via.placeholder.com/100?text=Animal2", type: "animal" },
-//   { src: "https://via.placeholder.com/100?text=Fish2", type: "fish" },
-//   { src: "https://via.placeholder.com/100?text=Bird2", type: "bird" },
-//   { src: "https://via.placeholder.com/100?text=Animal3", type: "animal" },
-//   { src: "https://via.placeholder.com/100?text=Fish3", type: "fish" },
-//   { src: "https://via.placeholder.com/100?text=Bird3", type: "bird" },
-// ];
+
 const images = [
   {
     src: "https://th.bing.com/th/id/R.b4290b2cf6217d205ff6c12ce810acb3?rik=Y0UlClMLsc%2bxwg&pid=ImgRaw&r=0",
